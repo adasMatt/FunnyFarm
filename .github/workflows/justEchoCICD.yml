@@ -4,7 +4,7 @@ name: Just say Hello
 
 on:
   push:
-    branches: [ "main" ]
+    branches: test-automation-with-echo
 
 jobs:
   print-to-terminal:
