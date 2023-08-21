@@ -1,5 +1,5 @@
 # FunnyFarm
-Website in progress, coming soon to help a cousin's farm.
+Website in progress, coming soon to help someone's farm out.
 <br>
 <br>
 To create the application:
