@@ -33,9 +33,22 @@ To create the application:
     - Automate K8s deployment files with Google Cloud recommendations
         - Cloud Build service account needs permissions to manage K8s containers, grant the service account K8s Engine Dev role
         - Include automated K8s file within /kubernetes/ directory in FunnyFarm repo
-(show new image of Buckets and highlight cloudbuild, show image of Cloud Build Edit trigger, show images comparing first running website to post-CICD website)
 
-### Note: See [Dockerfile](https://github.com/adasMatt/FunnyFarm/blob/main/Dockerfile) and [index.html](https://github.com/adasMatt/FunnyFarm/blob/main/index.html) for changes being made that demonstrate container and running application changes being made
+On GitHub: Google Cloud Build application
+![On GitHub: Google Cloud Build application](https://github.com/adasMatt/FunnyFarm/blob/main/screenshots/GCBuildAppOnGH.png)  
+  
+On GC Console: Cloud Build trigger details
+![On GC Console: Cloud Build trigger details](https://github.com/adasMatt/FunnyFarm/blob/main/screenshots/GCBuildOnGCConsole.png)  
+  
+Initial website application 
+![Initial website application](https://github.com/adasMatt/FunnyFarm/blob/main/screenshots/websitePreCICD.png)  
+  
+Website application after updating image and using CICD to update  
+![Website application after updating image and using CICD to update](https://github.com/adasMatt/FunnyFarm/blob/main/screenshots/websitePostCICD.png)   
+  
+### Note: See [Dockerfile](https://github.com/adasMatt/FunnyFarm/blob/main/Dockerfile) and [index.html](https://github.com/adasMatt/FunnyFarm/blob/main/index.html) for changes being made that demonstrate container and running application changes being made  
+(show new image of Buckets and highlight cloudbuild, show image of Cloud Build Edit trigger, show images comparing first running website to post-CICD website)  
+
 
 - \*\*future addition\*\* GH Actions CICD (see template given by GitHub in "Get Started with GitHub Actions" Category - Deployment)
 (show image, black out "deleteRepo")
