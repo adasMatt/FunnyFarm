@@ -23,8 +23,9 @@ To create the application:
             - If building a new image from repo, this step will push the container image build to GCR
         - Set Deployment name in configuration (funny-farm-app)
         - Choose correct K8s cluster (funny-farm-cluster)
-        - In Expose, setup load balancer, check expose deployment as a new service and choose ports 
-(show screenshots of Google Cloud console: K8s cluster, Workloads, Deployment, Bucket)
+        - In Expose, setup load balancer, check expose deployment as a new service and choose ports  
+  
+*Ignore: (show screenshots of Google Cloud console: K8s cluster, Workloads, Deployment, Bucket)
     
 ## CICD
 - Google Cloud CICD:
@@ -47,8 +48,10 @@ Website application after updating image and using CICD to update
 ![Website application after updating image and using CICD to update](https://github.com/adasMatt/FunnyFarm/blob/main/screenshots/websitePostCICD.png)   
   
 ### Note: See [Dockerfile](https://github.com/adasMatt/FunnyFarm/blob/main/Dockerfile) and [index.html](https://github.com/adasMatt/FunnyFarm/blob/main/index.html) for changes being made that demonstrate container and running application changes being made  
-(show new image of Buckets and highlight cloudbuild, show image of Cloud Build Edit trigger, show images comparing first running website to post-CICD website)  
+  
+*Ignore: (show new image of Buckets and highlight cloudbuild, show image of Cloud Build Edit trigger, show images comparing first running website to post-CICD website)  
 
 
-- \*\*future addition\*\* GH Actions CICD (see template given by GitHub in "Get Started with GitHub Actions" Category - Deployment)
-(show image, black out "deleteRepo")
+- \*\*future addition\*\* GH Actions CICD (see template given by GitHub in "Get Started with GitHub Actions" Category - Deployment)  
+  
+*Ignore: (show GH screenshots)
